@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firano | Portofolio</title>
+  <meta name="description" content="Portofolio Martinus Firano Gregorio, mahasiswa Informatika Universitas Muhammadiyah Maumere.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="#hero" class="logo">Firano</a>
+    <nav id="menu" class="menu">
+      <a href="#tentang">Tentang</a>
+      <a href="#skill">Skill</a>
+      <a href="#hobi">Hobi</a>
+      <a href="#motivasi">Motivasi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="aksi">
+      <button id="tema" class="ikon" aria-label="Ganti tema">🌙</button>
+      <button id="hamburger" class="ikon burger" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="hero-teks">
+        <p class="sapa">Halo, saya</p>
+        <h1 id="nama">Martinus Firano Gregorio</h1>
+        <p class="peran"><span id="mengetik"></span><span class="kursor">|</span></p>
+        <p class="ringkas">Mahasiswa Informatika di Universitas Muhammadiyah Maumere yang suka bola voli dan mendaki gunung.</p>
+        <div class="tombol-grup">
+          <a href="#tentang" class="tombol">Kenal lebih dekat</a>
+          <a href="#kontak" class="tombol kosong">Hubungi saya</a>
+        </div>
+      </div>
+      <div class="foto-wrap">
+        <span id="inisial" class="inisial">F</span>
+        <img src="foto.jpg" alt="Foto Martinus Firano Gregorio" class="foto" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <section id="tentang" class="bagian muncul">
+      <h2>Tentang saya</h2>
+      <div class="dua-kolom">
+        <p>Saya Martinus Firano Gregorio, biasa dipanggil Firano. Saya mahasiswa jurusan Informatika di Universitas Muhammadiyah Maumere.</p>
+        <p>Di luar kuliah, saya suka bermain bola voli, refreshing, dan mendaki gunung.</p>
+      </div>
+      <ul class="info">
+        <li><strong>Nama lengkap</strong> Martinus Firano Gregorio</li>
+        <li><strong>Panggilan</strong> Firano</li>
+        <li><strong>NIM</strong> 20250202016</li>
+        <li><strong>Jurusan</strong> Informatika</li>
+        <li><strong>Kampus</strong> Universitas Muhammadiyah Maumere</li>
+        <li><strong>Alamat</strong> Jl. Kombong No. 19</li>
+      </ul>
+    </section>
+
+    <section id="skill" class="bagian muncul">
+      <h2>Skill</h2>
+      <div class="chips">
+        <span class="chip">Bola voli</span>
+      </div>
+    </section>
+
+    <section id="hobi" class="bagian muncul">
+      <h2>Hobi</h2>
+      <div class="chips">
+        <span class="chip">Refreshing</span>
+        <span class="chip">Mendaki gunung</span>
+      </div>
+    </section>
+
+    <section id="motivasi" class="bagian muncul">
+      <h2>Motivasi</h2>
+      <blockquote class="kutipan">
+        Utamakan sesuap nasi daripada menyukai kekasih.
+      </blockquote>
+    </section>
+
+    <section id="kontak" class="bagian muncul">
+      <h2>Kontak</h2>
+      <p class="pengantar">Ingin berkenalan atau bekerja sama? Hubungi saya lewat:</p>
+      <div class="kontak-list">
+        <a href="https://wa.me/6282310644397" target="_blank" rel="noopener">WhatsApp: 082310644397</a>
+        <a href="mailto:firanogregorio2@gmail.com">firanogregorio2@gmail.com</a>
+        <a href="https://instagram.com/firanogregorio8" target="_blank" rel="noopener">Instagram: @firanogregorio8</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="tahun"></span> Martinus Firano Gregorio. Dibuat dengan HTML, CSS, dan JavaScript.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
